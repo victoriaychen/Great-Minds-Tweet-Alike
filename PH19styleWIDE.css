@@ -1,0 +1,49 @@
+
+body {
+    display : grid;
+    grid-template-rows : repeat(5, auto);
+    margin : unset; padding : unset;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-size : 20px; font-weight : bold; color : whitesmoke;
+    background-color : cornflowerblue;
+}
+
+div {
+    width: available;
+    margin: 10px;
+    text-align: center;
+    background-color : lightsteelblue;
+}
+
+.big { font-size : 30pt; }
+input[type=text] {
+    height: available;
+    position: relative;
+    outline: none;
+    margin : auto; width : 50%; padding-top : 5px; padding-bottom : 5px;
+
+    background-color: unset;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    color : whitesmoke; font-size : 30pt;
+}
+#sug {
+    display : none;
+}
+#search {
+    display : grid;
+    grid-template-rows : auto auto;
+    margin : auto; width : 50%;
+}
+
+#go { margin-top : 10px; margin-bottom : 10px; margin-left : 40%; margin-right : 40%;
+    width : 50px; height : 50px; }
+#col {
+    display : grid;
+    grid-template-columns : auto auto; grid-column-gap : 10%;
+    padding-left : 10%; padding-right : 10%;
+}
+
+#col > div {
+    background-color: darkred; padding : 5px;
+    height : 300px;
+}
